@@ -8,6 +8,8 @@ This project demonstrates a scalable and modular architecture using **Oracle APE
 
 This architecture aims to:
 
+![Enterprise Architecture Diagram](enterprise_architecture_diagram.png)
+
 - Host **APEX** in one Oracle XE instance (lightweight and fast).
 - Keep **business logic and data** in a separate Oracle XE database.
 - Use **ORDS REST services** to connect APEX to the business layer.
