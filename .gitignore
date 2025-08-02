@@ -1,0 +1,48 @@
+# Node modules (if ever used for frontend assets)
+node_modules/
+
+# Docker volumes and mount points
+volume/
+oracle-data/
+ords-data/
+ords_logs/
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Docker files not meant to persist
+*.pid
+*.sock
+
+# SQL*Plus spool files or temporary scripts
+*.lst
+*.tmp.sql
+*.bak.sql
+*.sql.bak
+*.dmp
+
+# VSCode config (if used)
+.vscode/
+
+# Environment and secret files
+.env
+*.env
+.env.*
+conn_string.txt
+*.password
+*.secret
+
+# Compiled files and binaries
+*.class
+*.jar
+*.war
+*.o
+*.so
+*.exe
+
+# System files
+*.swp
+*~
